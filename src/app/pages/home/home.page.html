@@ -1,0 +1,28 @@
+<ion-header>
+    <ion-toolbar color="success">
+        <ion-title>ion4-component</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <app-ion4-tabs-slide [items]="tabs">
+        <ion-slide>
+            <app-last-news></app-last-news>
+        </ion-slide>
+        <ion-slide>
+            <h1>Tab 2</h1>
+        </ion-slide>
+        <ion-slide>
+            <h1>Tab 3</h1>
+        </ion-slide>
+        <ion-slide>
+                <app-top-news class="swiper-lazy"></app-top-news>
+        </ion-slide>
+        <ion-slide>
+            <h1>Tab 5</h1>
+        </ion-slide>
+        <ion-slide>
+            <h1>Tab 6</h1>
+        </ion-slide>
+    </app-ion4-tabs-slide>
+</ion-content>
